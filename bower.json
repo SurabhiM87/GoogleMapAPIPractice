@@ -1,0 +1,22 @@
+{
+  "name": “find-the-distance”,
+  "description": "Coding Test",
+  "main": "index.js",
+  "authors": [
+    "Surabhi Mendiratta"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/SurabhiM87",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "jsdom": "^9.9.0"
+  }
+}

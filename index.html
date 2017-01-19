@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Find the distance</title>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAhwXD0g6vxhDjVSvLryo9YnjszfwdJnao&libraries=places"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="js/addressForm.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="outerContainer">
+    <div class="searchField">
+        <form>
+            <h1>Find the distance</h1>
+            <label for="startAddress">Start Address </label>
+            <input id="startAddress" name="startAddress" placeholder="Enter your start address" type="text" onfocus="geolocate()">
+            <label for="endAddress">Destination Address</label>
+            <input id="endAddress"name="endAddress" placeholder="Enter your destination address" type="text" onfocus="geolocate()">
+            <input id="submitBtn" type="button" value="Find" onclick="GetRoute()">
+        </form>
+    </div>
+    <div class="totalDistance"></div>
+    <div class="dvMap"></div>
+    <div class="dvPanel"></div>
+</div>
+</body>
+</html>

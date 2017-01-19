@@ -1,0 +1,14 @@
+
+Follow the steps below to get the project started:
+
+
+Step 1: In the terminal, gp to the project folder
+$ cd FOLDER_NAME
+
+Step2: Install node dependencies
+$ npm install
+
+Step 3: Install bower dependencies
+$ bower install
+
+Step 4: Run the index.html file

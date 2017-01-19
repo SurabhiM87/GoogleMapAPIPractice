@@ -1,0 +1,19 @@
+{
+  "name": "node-modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Surabhi Mendiratta",
+  "license": "ISC",
+  "dependencies": {
+    "node-bourbon": "^4.2.3",
+    "node-neat": "^1.7.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.0.0"
+  }
+}
